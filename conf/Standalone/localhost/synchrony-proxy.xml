@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Context path="/synchrony-proxy" docBase="../synchrony-proxy" debug="0" reloadable="false" useHttpOnly="true">
+    <Valve className="org.apache.catalina.valves.StuckThreadDetectionValve" threshold="60" />
+</Context>
